@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="cal.css">
+       <script src="cal.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="container1">
+            <div class="inp">
+                <input type="text" placeholder="" id="output">
+            </div>
+            
+            <div class="flex">
+                <div><input type="button"  value="(" onclick="append()" ></div>
+                <div><input type="button"  value="%" onclick="append('%')"></div>
+                <div><input type="button"  value=")" onclick="append()"></div>
+                <div><input type="button"  value="AC" onclick="clr()"></div>
+                
+            </div>
+           
+            <div class="flex">
+                <div><input type="button"  value="7" onclick="append(7)" ></div>
+                <div><input type="button"  value="8" onclick="append(8)"></div>
+                <div><input type="button"  value="9" onclick="append(9)"></div>
+                <div><input type="button"  value="x" onclick="append('X')"></div>
+                
+                
+            </div>
+            <div class="flex">
+                <div><input type="button"  value="4" onclick="append(4)"></div>
+                <div><input type="button"  value="5" onclick="append(5)"></div>
+                <div><input type="button"  value="6" onclick="append(6)"></div>
+                <div><input type="button"  value="-" onclick="append('-')"></div>
+             </div>   
+            <div class="flex">
+                <div><input type="button"  value="1" onclick="append(1)"></div>
+                <div><input type="button"  value="2" onclick="append(2)"></div>
+                <div><input type="button"  value="3" onclick="append(3)"></div>
+                <div><input type="button"  value="+" onclick="append('+')"></div>
+
+
+            </div>
+            <div class="flex">
+                <div><input type="button"  value="." onclick="append()"></div>
+                <div><input type="button"  value="0" onclick="append()"></div>
+                <div><input type="button"  value="/" onclick="append('/')"></div>
+                <div><input type="button"  value="=" onclick="calculate()"></div>
+                
+             </div>
+            </div>
+        </div>
+    </body>
+</html>
